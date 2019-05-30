@@ -18,7 +18,6 @@ data = """****************************************************************
 ****************************************************************
 - https://debutysec.wordpress.com
 - Email: businessc0rp2k17@gmail.com
-
 Click on "Start Installation" To Start Installation"""
 ext = 'cmd /C dism /online /enable-feature /featurename:NetFX3 /source:"C:\\sources\\sxs" /LimitAccess'
 
@@ -39,32 +38,32 @@ def install_log():
 
 def disc_C():
 	try:
-		os.chdir('config\\')
-		shutil.move(path, 'C:\\')
+		os.chdir('config\\%s'%path)
+		shutil.move('sources', 'C:\\')
 	except:
 		pass
 
 def disc_D():
 	ext = ext.replace("C:\\", "D:\\")
 	try:
-		os.chdir('config\\')
-		shutil.move(path, 'D:\\')
+		os.chdir('config\\%s'%path)
+		shutil.move('sources', 'D:\\')
 	except:
 		pass
 
 def disc_F():
 	ext = ext.replace("C:\\", "F:\\")
 	try:
-		os.chdir('config\\')
-		shutil.move(path, 'F:\\')
+		os.chdir('config\\%s'%path)
+		shutil.move('sources', 'F:\\')
 	except:
 		pass
 		
 def disc_G():
 	ext = ext.replace("C:\\", "G:\\")
 	try:
-		os.chdir('config\\')
-		shutil.move(path, 'G:\\')
+		os.chdir('config\\%s'%path)
+		shutil.move('sources', 'G:\\')
 	except:
 		pass
 
