@@ -6,5 +6,5 @@ Tool for Troubleshooting on Windows - @Freud
   <li>Activade checkBox on Windows Features</li>
 </ul>
 <br/>
-<p><i>Tkinter</i> Desktop Download: <a href="http://www.mediafire.com/file/vv08znockl5lmoc/Microsoft+.NET+Tool+Repair.exe" target="_blank">Clique Aqui.</a></p>
+<p><i>Microsoft .NET</i> Desktop Download: <a href="http://www.mediafire.com/file/vv08znockl5lmoc/Microsoft+.NET+Tool+Repair.exe" target="_blank">Clique Aqui.</a></p>
 <IMG style="margin-left: 150px" src="https://i.imgur.com/h7BZUc3.png"/>
