@@ -1,11 +1,10 @@
 import win32console, win32gui
-con = 0
+con = 1
 win32gui.ShowWindow(win32console.GetConsoleWindow() ,con)
 import os, subprocess, shutil, webbrowser, platform
-from Tkinter import *
-from tkFileDialog import *
+from tkinter import *
+import tkinter.messagebox
 from ctypes import *
-
 
 if '64' in platform.machine():
 	path = "x64"
@@ -70,7 +69,7 @@ def disc_G():
 def main(root = Tk()):
 
 	if windll.shell32.IsUserAnAdmin() == 0:
-		windll.user32.MessageBoxA(0, "Please restart and run this application as administrator", "Microsoft .NET Reparir TOOL", 0x30)
+		tkinter.messagebox.showinfo("Microsoft .NET Reparir TOOL", "Please restart and run this application as administrator")
 
 	root.title('Microsoft .NET Repair TOOL - Adriel Freud')
 	root['bg'] = 'white'
